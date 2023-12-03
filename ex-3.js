@@ -13,17 +13,7 @@ const employee = {
   },
 };
 
-console.log("Employee Name: " + employees.name);
-console.log("Employee Age: " + employee.age);
-console.log(
-  "Employee Address: " +
-    employee.address.street +
-    ", " +
-    employee.address.city +
-    ", " +
-    employee.address.state +
-    ", " +
-    employee.address.country +
-    " " +
-    employee.adress.postalCode
-);
+console.log(employee.name);
+console.log(employee.age);
+console.log(employee.address.street+employee.address.city+employee.address.states+employee.address.country+employee.address.postalCode)
+// not sure how to insert a comma
